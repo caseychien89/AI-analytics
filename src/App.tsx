@@ -245,7 +245,7 @@ export default function App() {
             {isApiKeyConfigured === false && (
               <div className="hidden md:flex items-center gap-1.5 px-3 py-1.5 bg-amber-50 rounded-xl border border-amber-200 text-amber-700 text-xs font-semibold">
                 <AlertCircle className="w-4 h-4 text-amber-500" />
-                <span>請至 Settings &gt; Secrets 設定 GEMINI_API_KEY</span>
+                <span>請在伺服器環境變數中設定 GEMINI_API_KEY</span>
               </div>
             )}
             {isApiKeyConfigured === true && (
