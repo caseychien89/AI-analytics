@@ -1,0 +1,8 @@
+{
+  "name": "Remix: AI 數據分析與洞察工具",
+  "description": "提供上傳或貼上 CSV 數據，即時生成精準的 AI 數據分析、統計圖表與深度商業智慧洞察。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
